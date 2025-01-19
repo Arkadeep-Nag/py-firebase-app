@@ -12,15 +12,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 import sys
 import pyrebase 
 config = {
-    "apiKey": "AIzaSyDZw2TKNMPLkFBI7qPzklTGbd8bYkIyfUc",
-    "authDomain": "py-firebase-f97fc.firebaseapp.com",
-    "databaseURL": "https://py-firebase-f97fc-default-rtdb.firebaseio.com",
-    "projectId": "py-firebase-f97fc",
-    "storageBucket": "py-firebase-f97fc.appspot.com",
-    "messagingSenderId": "130186938120",
-    "appId": "1:130186938120:web:d8b87ef2a01af62dbf4ebd",
-    "measurementId": "G-9R811DMZEL",
-    "serviceAccount":".\py-firebase-f97fc-firebase-adminsdk-7w4qw-52ae79b7e5.json"
+
     }
 
 firebase = pyrebase.initialize_app(config)
